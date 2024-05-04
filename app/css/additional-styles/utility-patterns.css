@@ -1,27 +1,27 @@
 /* Typography */
 .h1 {
-    @apply text-4xl font-league-spartan font-bold leading-tight tracking-tight;
+    @apply text-4xl font-extrabold leading-tight tracking-tighter;
 }
 
 .h2 {
-    @apply text-3xl font-league-spartan font-bold leading-tight tracking-tight;
+    @apply text-3xl font-extrabold leading-tight tracking-tighter;
 }
 
 .h3 {
-    @apply text-3xl font-league-spartan font-extrabold;
+    @apply text-3xl font-bold leading-tight;
 }
 
 .h4 {
-    @apply text-2xl font-league-spartan font-extrabold leading-snug;
+    @apply text-2xl font-bold leading-snug tracking-tight;
 }
 
 @screen md {
     .h1 {
-        @apply text-5xl font-league-spartan;
+        @apply text-5xl;
     }
 
     .h2 {
-        @apply text-4xl font-league-spartan;
+        @apply text-4xl;
     }
 }
 

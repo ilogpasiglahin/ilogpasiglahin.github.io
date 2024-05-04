@@ -37,8 +37,8 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        'league-spartan': ['var(--font-league-spartan)', 'sans-serif'], 
-        'lexend': ['var(--font-lexend)', 'sans-serif'],
+        inter: ['var(--font-inter)', 'sans-serif'],
+        'architects-daughter': ['var(--font-architects-daughter)', 'sans-serif']
       },
       fontSize: {
         xs: '0.75rem',

@@ -60,7 +60,7 @@ export default function MobileMenu() {
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
         <ul className="bg-gray-800 px-4 py-2">
-          {/* <li>
+          <li>
             <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Sign in
             </Link>
@@ -72,7 +72,7 @@ export default function MobileMenu() {
             >
               Sign up
             </Link>
-          </li> */}
+          </li>
         </ul>
       </nav>
     </div>
