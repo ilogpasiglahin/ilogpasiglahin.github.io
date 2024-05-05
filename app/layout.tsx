@@ -29,11 +29,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${league_spartan.variable} ${lexend.variable} font-lexend antialiased bg-gray-900 text-gray-200`}>
+      <body className={`${league_spartan.variable} ${lexend.variable} font-lexend antialiased bg-blue-25 text-gray-900`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           {children}
-          <Banner />
         </div>
       </body>
     </html>
