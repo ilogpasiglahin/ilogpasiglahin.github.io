@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'selector',
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -19,17 +20,21 @@ module.exports = {
           800: '#25282C',
           900: '#151719',
         },
-        purple: {
-          100: '#F4F4FF',
-          200: '#E2E1FF',
-          300: '#CBCCFF',
-          400: '#ABABFF',
-          500: '#8D8DFF',
-          600: '#5D5DFF',
-          700: '#4B4ACF',
-          800: '#38379C',
-          900: '#262668',
+        blue: {
+          25: '#fcfeff',
+          50: '#f0f9ff',
+          100: '#dcf2ff',
+          200: '#b2e7ff',
+          300: '#6dd5ff',
+          400: '#20c0ff',
+          500: '#00a8ff',
+          600: '#0086df',
+          700: '#006ab4',
+          800: '#005a95',
+          900: '#004a7a',
+          950: '#00345b',
         },
+      
       },
       spacing: {
         '9/16': '56.25%',
